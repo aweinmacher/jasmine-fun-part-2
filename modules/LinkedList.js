@@ -19,6 +19,7 @@ LinkedList.prototype.consoleLogAll = function() {
     currentNode = currentNode.next;
   }
 };
+
 LinkedList.prototype.AddToTheBeginning = function(data) {
   var newNode = new Node(data);
   // Reference the new item to the existing first element.
